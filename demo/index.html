@@ -1,33 +1,17 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https:; font-src 'self' data:; connect-src 'self' https://*.supabase.co wss://*.supabase.co https://ntfy.sh; media-src 'self' https:; worker-src 'self'; manifest-src 'self'; frame-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'" />
-    <meta name="referrer" content="strict-origin-when-cross-origin" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <meta name="theme-color" content="#E4572E" />
-    <title>TableTap · QR table ordering for restaurants</title>
-    <meta name="description" content="Guests scan the QR on their table, order from their phone, and the order rings in your kitchen. Live order tracking, kitchen screen, table bills and Google reviews." />
-    <link rel="icon" type="image/png" sizes="192x192" href="/tabletap/demo/icons/icon-192.png" />
-    <link rel="apple-touch-icon" href="/tabletap/demo/icons/apple-touch-icon.png" />
-    <link rel="manifest" href="/tabletap/demo/manifest.webmanifest" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-title" content="TableTap" />
-    <!-- link previews (WhatsApp, Facebook, X) -->
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="TableTap" />
-    <meta property="og:title" content="TableTap · QR table ordering for restaurants" />
-    <meta property="og:description" content="Scan the QR. Order from the table. It rings in the kitchen. 7-day free trial." />
-    <meta property="og:image" content="https://diy99678-tech.github.io/tabletap/demo/og.jpg" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:url" content="https://diy99678-tech.github.io/tabletap/demo/" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <script type="module" crossorigin src="/tabletap/demo/assets/index-Dy9dAP1C.js"></script>
-    <link rel="stylesheet" crossorigin href="/tabletap/demo/assets/index-DsmeVAhl.css">
-  </head>
-  <body>
-    <div id="root"></div>
-    <noscript>Please turn on JavaScript to use TableTap.</noscript>
-  </body>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>TableTap has moved</title>
+<script>
+  // TableTap now lives on Cloudflare. Keep the path below /tabletap, the query and the #/route (table QR codes,
+  // login links, password-reset links), so every old link and printed QR keeps working.
+  var path = location.pathname.replace(/^\/tabletap/, "") || "/";
+  location.replace("https://tabletap-1sn.pages.dev" + path + location.search + location.hash);
+</script>
+<style>body{font-family:system-ui,sans-serif;display:grid;place-items:center;min-height:100vh;margin:0;background:#f7f5f1;color:#16131d}a{color:#e4572e}</style>
+</head>
+<body><p>TableTap has moved. <a href="https://tabletap-1sn.pages.dev/">Open TableTap</a></p></body>
 </html>
